@@ -1,5 +1,7 @@
 # Alsodev - test task 2
 
+[Demo](https://alsodev-tt-2.vercel.app/)
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -8,6 +10,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Getting Started
 
+### Install dependencies
 ```sh
 yarn
 ```
