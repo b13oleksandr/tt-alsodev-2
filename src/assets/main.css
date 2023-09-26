@@ -1,0 +1,49 @@
+@import './base.css';
+
+#app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    padding: 0 2rem;
+  }
+}
+
+p {
+  /*margin-bottom: 16px;*/
+}
+
+input[type='text'] {
+  height: 40px;
+  padding: 0 16px;
+  background: #0e0e0e;
+  border: none;
+  color: var(--color-text);
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
